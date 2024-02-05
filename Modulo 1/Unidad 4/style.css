@@ -1,0 +1,55 @@
+body {
+    margin: 100px;
+}
+
+.caja_zapato {
+    /*margin-top: 50px;
+    margin-bottom: 60px;        Se puede usar una versión reducida aunque el valor sea
+    margin-left: 70px;          diferente... 'margin: top right bottom left;'
+    margin-right: 80px;*/
+
+    /*padding-top: 25px;
+    padding-bottom: 25px;       Como en todas las ubicaciones el padding es exactamente el mismo
+    padding-left: 25px;         se puede simplificar utilizando 'padding 25px;'
+    padding-right: 25px;*/
+
+    margin: 50px 80px 60px 70px;
+    
+    padding: 25px;
+
+    border: 5px solid red;
+
+    /*display: block;              Los elementos inline se comportan como los block */
+    display: inline;               /* Los elementos block se comportan como inline */
+}
+
+.caja_zapato:hover {
+    background-color: red;
+}
+
+a {
+    font-size: 50px;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:active {
+    background-color: yellow;
+}
+
+a:focus {
+    background-color: blue;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

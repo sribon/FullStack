@@ -1,0 +1,43 @@
+body {
+    background-color: aquamarine;
+}
+
+.header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cuadrado {
+    height: 200px;
+    width: 200px;
+}
+
+.footer {
+    font-size: 20px;
+    background-color: cadetblue;
+    text-align: center;
+    height: 50px;
+}
+
+#color1 {
+    background-color: #FF0000;
+}
+
+#color2 {
+    background-color: #FF0033;
+}
+
+#color3 {
+    background-color: #FF0066;
+}
+
+#color4 {
+    background-color: #FF0099;
+}
+
+#color5 {
+    background-color: #FF00CC;
+}
+
+#color6 {
+    background-color: #FF00FF;
+}

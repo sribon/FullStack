@@ -1,0 +1,15 @@
+body {
+    background-color: #00ff00;
+}
+
+.cuadrado{
+    background-color: #fecb00;
+    
+    height: 700px;
+    width: 700px;
+
+    margin-top: 75px;
+    margin-left: 350px;
+
+    text-align: center;
+}
